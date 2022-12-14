@@ -9,7 +9,7 @@
 /* Header start */
 
 nav{
-    background-image: linear-gradient(rgb(0, 19, 129) , rgb(255, 255, 255));  
+    background-image: linear-gradient(rgb(0, 19, 129) , rgb(158, 194, 255));  
     height: 80px;
     width: 100%;
 }
@@ -20,7 +20,6 @@ label.logo{
     line-height: 80px;
     padding: 0 50px;
     font-weight: bold;
-    
 }
 
 nav ul{
@@ -107,88 +106,6 @@ a:hover,a.active{
 
 /*Header end */ 
 
-/*Visit Site Main Content*/ 
-
-h2{
-    padding: 30px;
-    font-size: 30px;
-}
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    flex-wrap: wrap;
-
-}
-
-.nav p{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.nav img{
-    width: 600px;
-    padding-bottom: 20px;
-    
-}
-
-.nav a{
-    background-color: black;
-    font-size: 20px;
-    color: white;
-    border-radius: 5px;
-    
-}
-
-/*Visit Site Main Content End */
-
-/*Cosmos Site Start*/
-
-main{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-
-.whole{
-    display: flex;
-    flex-direction: row;
-}
-
-.whole p{
-    padding-top: 20px;
-}
-
-
-.cosmos img{
-    width: 600px;
-    margin-bottom: 20px;
-}
-
-.universe{
-    height: 399px;
-}
-
-
-
-
-
-
-
-
-/*Cosmos Site End*/ 
-
-
-
-
-
-
-
-
-
-
 /*Footer start */ 
 
 footer {
@@ -220,3 +137,40 @@ footer p{
 }
 
 /*Footer ends*/
+
+
+/* About us start*/
+
+
+div{
+    padding: 30px;
+}
+
+span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+/* About us end*/
+
+/* Contact us start*/
+
+.contact{
+    padding: 20px;
+}
+
+.paragraph{
+    padding: 20px;
+}
+
+.span{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* Contact Us end*/

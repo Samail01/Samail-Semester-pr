@@ -142,18 +142,37 @@ footer p{
 /*Main start*/
 
 main img {
+    position: relative;
     max-height: 500px;
     width: 100%;
 }
 
+.welcome{
+text-align: center;
+position: relative; top: 30%;
+width: 100%;
+bottom: 200px;
+}
+
+.btn{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 35px;
+    bottom: 150px;
+    background-color: rgb(142, 142, 246);
+    text-decoration: none;
+}
+
 main p {
-    position: absolute;
-    right: 500px;
     top: 30%;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     font-family: sans-serif;
     color: black;
+
 }
 
 .sec-main h2{
@@ -168,7 +187,7 @@ margin: 20px;
 }
 
 .sec-main img{
-    width: 500px;
+    width: 100%;
     margin-top: 40px;
     height: 300px;
 }
@@ -188,14 +207,9 @@ margin: 20px;
 
 .sec-section p {
     width: 300px;
-    line-height: 1.7em;
+    line-height: 1.9em;
+    padding: 20px;
 }
 
-.sec-section span {
-    font-size: 20px;
-    font-weight: bold;
-    padding-bottom: 20px;
-    padding-top: 10px;
-}
 
 

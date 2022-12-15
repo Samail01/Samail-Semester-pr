@@ -9,7 +9,7 @@
 /* Header start */
 
 nav{
-    background-image: linear-gradient(rgb(0, 19, 129) , rgb(255, 255, 255));  
+    background-image: linear-gradient(rgb(0, 19, 129) , rgb(158, 194, 255));  
     height: 80px;
     width: 100%;
 }
@@ -125,11 +125,14 @@ h2{
 .nav p{
     font-size: 20px;
     font-weight: bold;
+    padding-bottom: 20px;
+    
 }
 
 .nav img{
     width: 600px;
     padding-bottom: 20px;
+    padding: 20px;
     
 }
 
@@ -138,37 +141,105 @@ h2{
     font-size: 20px;
     color: white;
     border-radius: 5px;
-    
+    padding: 10px;
+   
 }
 
 /*Visit Site Main Content End */
 
 /*Cosmos Site Start*/
 
-main{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 20px;
-}
 
 .whole{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image12{
+    width: 600px;
+    height: auto;
+    padding: 30px;
+}
+
+.cosmospar{
+    border: solid rgb(216, 216, 216)gray;
+    background-color: rgb(216, 216, 216);
+    width: 550px;
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 .whole p{
     padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+}
+
+.whole h3{
+    font-size: 30px;
+
+}
+
+.cosmos2{
+
 }
 
 
-.cosmos img{
-    width: 600px;
+
+/*Cosmos Site End*/
+
+/*Animals & Technology Site Start*/ 
+
+.whole2{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.border{
+    border: solid rgb(216, 216, 216);
+    background-color: rgb(216, 216, 216);
+    width: 469px;
+    padding-top: 30px;
+    margin-left: 30px;
     margin-bottom: 20px;
 }
 
-.universe{
-    height: 399px;
+.border2{
+    border: solid rgb(216, 216, 216);
+    background-color: rgb(216, 216, 216);
+    width: 550px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+
+ .animalsimg{
+    width: 700px;
+    height: 700px;
+    padding-left: 30px;
+    padding-right: 200px;
+ }
+
+.tech{
+    width: 600px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 400px;
+}
+
+.whole2 p{
+    width: 460px;
+    font-size: 26px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.whole2 h3{
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-size: 30px;
+
 }
 
 
@@ -176,17 +247,7 @@ main{
 
 
 
-
-
-/*Cosmos Site End*/ 
-
-
-
-
-
-
-
-
+/*Animals & Technology End*/ 
 
 
 /*Footer start */ 
@@ -210,7 +271,7 @@ footer span {
 }
 
 footer p{
-    padding: px;
+    padding: 10px;
 }
 
 .quick-l{

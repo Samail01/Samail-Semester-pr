@@ -159,16 +159,18 @@ bottom: 200px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1;
     font-size: 35px;
     bottom: 150px;
     background-color: rgb(142, 142, 246);
     text-decoration: none;
 }
+.h2{
+    float: left;
+}
 
 main p {
-    top: 30%;
-    font-size: 60px;
+    top: 60%;
+    font-size: 40px;
     font-weight: bold;
     font-family: sans-serif;
     color: black;
